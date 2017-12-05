@@ -3,3 +3,11 @@
 snippet ci "cslInfo((... ))"
 cslInfo(("${1:Information needs printing}.\n"));
 endsnippet
+
+snippet cam "cslAssertMsg((... ))"
+cslAssertMsg((${1:false}), ("${2:ERROR}.\n"));
+endsnippet
+
+snippet cdg "cslDebugGroup((... ))"
+cslDebugGroup(("${1:group_name}", ${2:debug_level}, "${3:debug_info}.\n"));
+endsnippet
